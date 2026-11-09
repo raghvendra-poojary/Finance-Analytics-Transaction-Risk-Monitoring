@@ -1,0 +1,40 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local configuration files
+config.local.json
+settings.local.json
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+~$*
+
+# Power BI temporary files
+*.pbit.tmp
